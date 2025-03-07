@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+font-family: "poppins" , sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+
+}
+
+header{
+    background-color: rgb(0, 10, 100);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5625em 6.25em ;
+}
+
+.logo{
+    text-decoration: none;
+    color: rgb(138, 62, 0);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2em;
+}
+.navigation a{
+    text-decoration: none;
+    color: rgb(163, 87, 0);
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-left: 35px;
+    margin: 15px;
+}
+.navigation a:hover{
+    color: rgba(252, 134, 0, 0.842);
+}
+
+section {
+    padding: 100px 120px ;
+}
+.main{
+    width: 100%;
+    min-height: 105vh;
+    display: flex;
+    align-items: center;
+    background: url(backgrounds/mainback.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2{
+    color: rgb(138, 62, 0);
+    font-weight: 800;
+    font-size: 3em;
+    display: inline-block;
+    margin-top: 15px ;
+    letter-spacing: 1.5px;
+}
+.main h3{
+    color:rgb(138, 62, 0) ;
+    font-size: 1.6em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main_btn{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(0, 10, 100);
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.35s ease;
+}
+.main_btn:hover{
+    background-color: rgb(0, 7, 75);
+    transform: scale(1.1);   
+}
+.social-icons a {
+color: aliceblue;
+font-size: 1.7em;
+padding-right: 35px;
+}
+
+.plank{
+    background-color: rgb(0, 0, 0);
+    height: 25px;
+
+    
+}
+
+.cards{
+    background: url(backgrounds/simple.jpg) no-repeat;
+    background-size: cover;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(138, 62, 0);
+    font-size: 2.5em;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+.underline{
+    justify-content: center;
+    display: flex;
+    font-size: 2.3em;
+    font-weight: 1000;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card h4{
+    color:rgb(138, 62, 0) ;
+    font-size: 1.8em;
+    font-weight: 800;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 18em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    transition: 0.35s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);   
+}
+.icon a{
+    color: rgb(138, 62, 0);
+    text-align: center;
+    font-size: 8em;
+    text-decoration: underline;
+}
+.icon{
+    text-align: center;
+}
+.card a{
+    text-decoration: none;
+}
+
+.cardpic {
+    max-width: 260px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(1,1,1,20%);
+
+}
+.cardpic:hover{
+    opacity: 0.9;
+}
+.products .title {
+    margin-bottom: 30px;
+}
+.products {
+    background: url(backgrounds/main2.avif) no-repeat;
+    background-size: cover;
+}
+
+.product .content{
+   margin-top: 30px;
+}
+.product-card{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.product-card:hover{
+    transform: scale(1.1);
+}
+.product-image img{
+   width: 100%;
+}
+.product-card:hover .product-image{
+    opacity: 0.95;
+}
+.product-info{
+    padding: 1em;
+}
+.product-category{
+    font-size: 0.8em;
+    color: black;
+}
+.product-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details{
+    text-decoration: none;
+    color: rgb(138, 62, 0);
+}
+.more-details:hover{
+    color: rgba(252, 134, 0, 0.842) ;
+}
+.footer{
+    background-color: rgb(0, 10, 100);
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span{
+    color: rgb(138, 62, 0);
+}
