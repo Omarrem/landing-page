@@ -169,7 +169,7 @@ padding-right: 35px;
 .product-card{
     background-color: rgb(255, 255, 255);
     border: 1px solid white;
-    min-height: 14em;
+    min-height: 10em;
     width: 23em;
     overflow: hidden;
     border-radius: 10px;
@@ -232,10 +232,10 @@ padding-right: 35px;
         font-size: 1.2em;
      }
      .navigation a{
-        font-size: 0.7em;
+        font-size: 0.6em;
         padding-left: 0px;
         margin-left: 0px;
-        font-weight: 700;
+        font-weight: 750;
      }
      section{
         padding: 50px 30px;
@@ -274,7 +274,7 @@ padding-right: 35px;
         width: 9em;
      border-radius: 10px;
      padding: 10px;
-     margin: 10px 0px 20px 10px;
+     margin: 5px 0px 0px 5px;
      padding-bottom: 5px;
      }
      .card h4{
@@ -285,11 +285,11 @@ padding-right: 35px;
         margin-top: 10px;
      }
      .product-card{
-        width: 9em;
+        width: 8em;
         margin: 10px;
      }
      .product-category{
-        font-size: 0.7em;
+        font-size: 0.6em;
         font-weight: 800;
      }
      .product-title{
@@ -297,7 +297,7 @@ padding-right: 35px;
         justify-content: space-between;
         text-transform: uppercase;
         font-weight: 800;
-        font-size: 0.45em;
+        font-size: 0.35em;
         margin-top: 1px;
     }
 }
